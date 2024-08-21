@@ -23,15 +23,24 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ space }) => {
           </div>
         </a>
       </div>
-      <div className="mx-4">
+      <div className="mx-4 relative">
         <img
           src={space.images[0]}
           alt={space.name}
           className="w-full h-40 object-cover rounded-lg"
         />
+        <div 
+          className='absolute items-center text-[#FFBB00] rounded p-1 left-2 top-2 flex bg-gradient-to-r from-[#263238] via-[#2a414d] to-[#2f4b59]'>
+          <img
+            src={space.icon}
+            alt={space.name}
+            className="mr-1"
+          />
+        <span>{space.type}</span>
+        </div>
       </div>
 
-      <div className="p-4 flex items-center justify-between">
+      <div className="p-4 flex gap-4 items-center ">
         <DayPassCard passType="Day Pass" originalPrice={249}  />
         <BulkPassCard
           passType="Bulk Pass"
@@ -42,32 +51,6 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ space }) => {
         />
       </div>
 
-      {/* <div className="p-4">
-        <p className="text-sm text-gray-600">{space.address}</p>
-        <p className="text-xl font-semibold text-yellow-500 mt-2">
-          ₹{space.day_pass_price}
-        </p>
-        <div className="mt-2">
-          <a
-            href={space.google_maps_url}
-            className="text-blue-500 text-sm underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View on Google Maps
-          </a>
-        </div>
-        <ul className="text-sm text-gray-600 mt-2">
-          {space.amenities?.map((amenity, index) => (
-            <li key={index}>- {amenity}</li>
-          ))}
-        </ul>
-        {space.is_day_pass_enabled && space.day_pass_discounts_percentage[10] && (
-          <p className="text-sm text-green-600 mt-2">
-            {space.day_pass_discounts_percentage[10].message}
-          </p>
-        )}
-      </div> */}
     </div>
   );
 };

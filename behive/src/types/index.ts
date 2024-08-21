@@ -3,6 +3,8 @@ export type Space = {
     id: string;
     name: string;
     address: string;
+    type?:string;
+    icon?: string;
     latitude: number;
     longitude: number;
     google_maps_url?: string;
@@ -30,4 +32,11 @@ export type Space = {
     manager_id?: string | null;
     can_edit?: boolean;
 };
-  
+
+export type Feature = {
+  icon : string;
+  title : string;
+  bb? : boolean;
+  br? : boolean
+  index? : number;
+}

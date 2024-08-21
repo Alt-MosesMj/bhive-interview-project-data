@@ -1,9 +1,13 @@
 import { Space } from "../types";
+import  WorkSpaceSVG from '../assets/workspace.svg?react';
+import  HoneyCombSVG from '../assets/honeycomb.svg?react';
 
 const spaces: Space[] = [
     {
       "id": "39ab7642-8de3-4e95-aa5d-34089bc67b90",
       "name": "Platinum, Indiranagar",
+      "type":"Workspace",
+      "icon": "images/Icons/workspace.svg",
       "address": "271, 6th Main Rd, HAL 2nd Stage, Motappapalya, Indiranagar, Bengaluru, Karnataka 560038, India",
       "latitude": 12.9732196,
       "longitude": 77.6406548,
@@ -38,6 +42,8 @@ const spaces: Space[] = [
     {
       "id": "f87f54e2-6ce4-4bc5-bed7-587b361b5633",
       "name": "JBR Campus, Whitefield",
+      "type":"Honeycomb",
+      "icon": "images/Icons/honeycomb.svg",
       "address": "Plot No. 77, Jbr Tech Park, 6th Rd, Whitefield, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066, India",
       "latitude": 12.978337,
       "longitude": 77.727572,
@@ -71,6 +77,8 @@ const spaces: Space[] = [
     {
       "id": "292caef7-95a4-493d-9575-5524b12eb0a5",
       "name": "HSR Sector 6 Service Road, Silkboard",
+      "type":"Platinum",
+      "icon": "images/Icons/platinum.svg",
       "address": "L-194, Santhosapuram, Sector 6, HSR Layout, Bengaluru, Karnataka 560101, India",
       "latitude": 12.9180167,
       "longitude": 77.6247532,
@@ -104,6 +112,8 @@ const spaces: Space[] = [
     {
       "id": "471c30b4-e91c-4392-9ebe-b4c1ad4a7b63",
       "name": "HSR Campus",
+      "type":"Campus",
+      "icon": "images/Icons/campus.svg",
       "address": "BHIVE Workspace - No.112, AKR Tech Park, \"A\" and, B-Block, 7th Mile Hosur Rd, Kudlu Gate, Krishna Reddy Industrial Area, Hosapalaya, Muneshwara Nagar, Bengaluru, Karnataka 560068, India",
       "latitude": 12.8926389,
       "longitude": 77.6417601,
@@ -137,6 +147,8 @@ const spaces: Space[] = [
     {
       "id": "298a504d-c5cd-4456-a132-e3a8f18a4a43",
       "name": "27th Main, HSR",
+      "type":"Premium",
+      "icon": "images/Icons/premium.svg",
       "address": "27th Main Rd, Bengaluru, Karnataka, India",
       "latitude": 12.9120089,
       "longitude": 77.6518831,
