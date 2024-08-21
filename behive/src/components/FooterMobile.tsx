@@ -1,5 +1,3 @@
-
-import React from 'react';
 import GooglePlaySVG from '../assets/googleplay.svg?react';
 import AppleStoreSVG from '../assets/applestore.svg?react';
 

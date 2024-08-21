@@ -17,3 +17,6 @@ behive/build/images/logo.png
 behive/build/images/mobilelanding.png
 behive/build/index.html
 behive/build/vite.svg
+
+# Local Netlify folder
+.netlify
