@@ -1,5 +1,4 @@
-import React from 'react';
-import  PhoneSVG from '../assets/phone.svg?react';
+import PhoneSVG  from '../assets/phone.svg?react';
 
 
 const Header = () => {

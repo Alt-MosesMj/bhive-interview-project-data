@@ -1,4 +1,3 @@
-import React from 'react';
 import CommunityIcon from '../assets/community.svg';
 import AffordableIcon from '../assets/affordable.svg';
 import GymIcon from '../assets/gym.svg';

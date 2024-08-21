@@ -1,6 +1,4 @@
 import { Space } from "../types";
-import  WorkSpaceSVG from '../assets/workspace.svg?react';
-import  HoneyCombSVG from '../assets/honeycomb.svg?react';
 
 const spaces: Space[] = [
     {

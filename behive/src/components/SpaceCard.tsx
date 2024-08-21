@@ -1,6 +1,5 @@
-import React from 'react';
 import { Space } from '../types';
-import  DirectionSVG from '../assets/direction.svg?react';
+import DirectionSVG from '../assets/direction.svg?react';
 import { BulkPassCard, DayPassCard } from './PassCards';
 
 type SpaceCardProps = {

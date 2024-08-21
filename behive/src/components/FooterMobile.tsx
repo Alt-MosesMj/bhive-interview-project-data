@@ -14,10 +14,10 @@ export const Footer: React.FC = () => {
           <img src="/images/Icons/appstore.svg" alt="App Store" className="mx-2" />
           <div className="flex space-x-4 mx-2 justify-between mt-4">
             <a href="#" className="inline-block">
-              <GooglePlaySVG className="h-12 max-w-32" alt="Download on the App Store" />
+              <GooglePlaySVG className="h-12 max-w-32"/>
             </a>
             <a href="#" className="inline-block">
-              <AppleStoreSVG className="h-12 max-w-32" alt="Download on the App Store" />
+              <AppleStoreSVG className="h-12 max-w-32" />
             </a>
           </div>
         </div>

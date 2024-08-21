@@ -26,11 +26,11 @@ export const Footer: React.FC = () => {
               and unlock exclusive perks.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="inline-block">
-                <GooglePlaySVG className="h-12" alt="Download on the App Store" />
+              <a href="#" className="inline-block store-icon">
+                <GooglePlaySVG />
               </a>
               <a href="#" className="inline-block">
-                <AppleStoreSVG className="h-12" alt="Download on the App Store" />
+                <AppleStoreSVG />
               </a>
             </div>
           </div>
