@@ -33,12 +33,14 @@ const FeaturesSection: React.FC = () => {
           {features.map((feature, index) => (
             isMobile ? 
               <FeatureCardMobile
+                key={index}
                 index={index}
                 icon={feature.icon}
                 title={feature.title}
               />
               : 
               <FeatureCard 
+                key={index}
                 index={index}
                 icon={feature.icon}
                 title={feature.title}

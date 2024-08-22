@@ -1,5 +1,5 @@
-import GooglePlaySVG from '../assets/googleplay.svg?react';
-import AppleStoreSVG from '../assets/applestore.svg?react';
+import GooglePlaySVG from '../assets/googleplay.svg';
+import AppleStoreSVG from '../assets/applestore.svg';
 
 export const Footer: React.FC = () => {
   return (
@@ -12,10 +12,10 @@ export const Footer: React.FC = () => {
           <img src="/images/Icons/appstore.svg" alt="App Store" className="mx-2" />
           <div className="flex space-x-4 mx-2 justify-between mt-4">
             <a href="#" className="inline-block">
-              <GooglePlaySVG className="h-12 max-w-32"/>
+              <img src={GooglePlaySVG} alt="Google play image" className="h-12 max-w-32" />
             </a>
             <a href="#" className="inline-block">
-              <AppleStoreSVG className="h-12 max-w-32" />
+              <img src={AppleStoreSVG} alt="Apple store image" className="h-12 max-w-32" />
             </a>
           </div>
         </div>
